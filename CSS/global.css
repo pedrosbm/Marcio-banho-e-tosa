@@ -9,13 +9,19 @@
 */
 
 html    {
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
     background: #ffffff;
     font-family: 'Cabin', sans-serif;
 }
 
 h1  {
     font-weight: 600;
-    font-size: 32;
+    font-size: 32px;
+}
+
+main h1 {
+    margin-bottom: 4rem;
 }
 
 p   {
@@ -31,7 +37,7 @@ a   {
     text-decoration-line: none;
     color: black;
     transition-duration: 0.3s;
-    padding-inline: 5px;
+    padding: 0.5rem 1rem;
     margin-inline: 2rem;
     border-radius: 5px;
 }
@@ -39,22 +45,33 @@ a   {
 a:hover    {
     transition-duration: 0.3s;
     color: #ededed;
-    background-color: #bfbfbf;
+    background-color: #d0d0d0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-inline: 8rem;
+    padding-bottom: 5rem;
 }
 
 header  {
     position: sticky;
     top: 0;
     background: #D9D9D9;
-    border-bottom: 1px solid #A5A5A5;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-inline: 2rem;
     padding-block: 1rem;
+    margin-bottom: 5rem;
 }
 
 header a    {
     font-weight: 400;
     font-size: 27px;
+}
+
+img {
+    height: 360px;
 }
