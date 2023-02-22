@@ -1,0 +1,7 @@
+/*css's*/
+@import './CSS/global.css';
+@import './CSS/main.css';
+@import './CSS/reset.css';
+
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');

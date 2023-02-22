@@ -1,0 +1,17 @@
+/*declarar todas as id's e classes aqui*/
+
+.logo  {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo   {
+    margin-right: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}

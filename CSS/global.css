@@ -1,0 +1,60 @@
+/*declarar todas as tags aqui*/
+
+/*
+    IMPORTANTE!
+    FONTES:
+
+    regular - 400
+    semibold - 600
+*/
+
+html    {
+    background: #ffffff;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1  {
+    font-weight: 600;
+    font-size: 32;
+}
+
+p   {
+    font-weight: 400;
+    font-size: 27px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+a   {
+    text-decoration-line: none;
+    color: black;
+    transition-duration: 0.3s;
+    padding-inline: 5px;
+    margin-inline: 2rem;
+    border-radius: 5px;
+}
+
+a:hover    {
+    transition-duration: 0.3s;
+    color: #ededed;
+    background-color: #bfbfbf;
+}
+
+header  {
+    position: sticky;
+    top: 0;
+    background: #D9D9D9;
+    border-bottom: 1px solid #A5A5A5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+}
+
+header a    {
+    font-weight: 400;
+    font-size: 27px;
+}
