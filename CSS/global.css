@@ -13,6 +13,7 @@ html    {
     scroll-padding: 10rem;
     background: #ffffff;
     font-family: 'Cabin', sans-serif;
+    text-align: justify;
 }
 
 h1  {
@@ -20,13 +21,13 @@ h1  {
     font-size: 32px;
 }
 
-main h1 {
-    margin-bottom: 4rem;
+main figure h1  {
+    padding-block: 2rem;
 }
 
 p   {
     font-weight: 400;
-    font-size: 27px;
+    font-size: 25px;
 }
 
 nav ul{
@@ -45,14 +46,14 @@ a   {
 a:hover    {
     transition-duration: 0.3s;
     color: #ededed;
-    background-color: #d0d0d0;
+    background-color: #c7c7c7;
 }
 
 section {
     display: flex;
     justify-content: center;
     padding-inline: 8rem;
-    padding-bottom: 5rem;
+    margin-block: 5rem;
 }
 
 header  {
@@ -64,7 +65,6 @@ header  {
     justify-content: space-between;
     padding-inline: 2rem;
     padding-block: 1rem;
-    margin-bottom: 5rem;
 }
 
 header a    {
@@ -74,4 +74,10 @@ header a    {
 
 img {
     height: 360px;
+}
+
+main li {
+    font-size: 27px;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 0.3rem;
 }

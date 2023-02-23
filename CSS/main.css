@@ -16,6 +16,11 @@
     flex-direction: row;
 }
 
+.tabela-preco   {
+    display: flex;
+    justify-content: space-between;
+}
+
 .first-section  {
     display: flex;
     justify-content: space-evenly;
@@ -23,16 +28,25 @@
 
 .first-section__box1 {
     margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .second-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+.second-section h1 {
+    display: flex;
+    justify-content: center;
 }
 
 .second-section__list   {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 5rem;
 }
